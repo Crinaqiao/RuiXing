@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/menu/menu",
+    "pages/bag/bag",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/sreach/sreach",
+    "pages/login/login",
+    "pages/find/find",
+    "pages/next/next",
+    "pages/try/try",
+    "pages/personal/personal",
+    "pages/adress/adress",
+    "pages/editAdress/editAdress",
+    "pages/order/order"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0c34ba",
+    "navigationBarTitleText": "瑞幸",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/icons/home.png",
+        "selectedIconPath": "images/icons/home_active.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "菜单",
+        "iconPath": "images/icons/menu.png",
+        "selectedIconPath": "images/icons/menu_active.png"
+      },
+      {
+        "pagePath": "pages/bag/bag",
+        "text": "购物袋",
+        "iconPath": "images/icons/shopbag.png",
+        "selectedIconPath": "images/icons/shopbag_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/icons/my.png",
+        "selectedIconPath": "images/icons/my_active.png"
+      }
+    ]
+  },
+  
+  
+  
+
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
